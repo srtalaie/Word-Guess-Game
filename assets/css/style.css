@@ -1,0 +1,46 @@
+body{
+    background-image: url('../images/western-bg.jpg');
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.hangman-img{
+    margin: auto 250px;
+    width: 60%;
+}
+
+.wanted{
+    width: 75%;
+}
+
+.container{
+    margin: auto 450px;
+    display: flex;
+}
+
+.left{
+    border: 1px solid black;
+    flex: 2;
+    margin-right: 50px;
+    color: whitesmoke;
+    font-size: 20px;
+}
+
+.right{
+    border: 1px solid black;
+    flex: 4;
+    margin-left: 90px;
+}
+
+.right p{
+    padding: 20px;
+    color: whitesmoke;
+    font-size: 20px;
+}
+
+.word{
+    padding: 20px 0;
+}

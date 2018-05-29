@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Word Guess Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/reset.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/style.css" />
+
+</head>
+<body>
+    <img src="assets/images/hangman.jpg" alt="hangman" class="hangman-img">
+    <div class="container">
+        <div class="left">
+            <img src="assets/images/wanted.png" alt="wanted-poster" class="wanted">
+            <p>Welcome to the Game Partner!</p>
+            <p>Rules are simple, you guess the letters of the word by pressing the keys on your keyboard. Object of the game is to guess the word in 12 guesses.</p>
+            <p>If ya don't then its the gallows for you.</p>
+        </div>
+        <div class="right">
+            <p>Welcome to Hangman, press the keys to guess the letters to spell the word.</p>
+            <div class="wins" id="wins"><p>Wins: </p></div>
+            <div class="word" id="word"> </div>
+            <div class="num-guesses" id="num-guesses"><p>Number of Guesses Remaining: </p></div>
+            <div class="letters-guessed" id="letters-guessed"><p>Letters Already Guessed: </p></div>
+        </div>
+    </div>
+    <script src="./assets/javascript/game.js"></script>    
+</body>
+</html>
